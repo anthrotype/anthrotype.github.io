@@ -17,6 +17,11 @@
       src:
         url("fonts/MaterialIconsTwoTone_rebuilt.woff2") format("woff2");
     }
+    @font-face {
+      font-family: "Material Icons Two Tone Space";
+      src:
+        url("fonts/MaterialIconsTwoTone_space.woff2") format("woff2");
+    }
   </style>
 </head>
 <body>
@@ -27,8 +32,11 @@
   <p>Modified font: glyph at index 1 is empty</p>
   <p style="font-family: 'Material Icons Two Tone GID1 Empty'">access_alarm 360</p>
 
-  <p>Font rebuilt from source: glyph at index 1 is empty</p>
+  <p>Font rebuilt from source: glyph at index 1 is empty ".null"</p>
   <p style="font-family: 'Material Icons Two Tone Rebuilt'">access_alarm 360</p>
+
+  <p>Font rebuilt from source: glyph at index 1 is empty "space"</p>
+  <p style="font-family: 'Material Icons Two Tone Space'">access_alarm 360</p>
 
 </body>
 </html>
