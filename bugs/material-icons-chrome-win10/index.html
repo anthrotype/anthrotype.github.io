@@ -12,15 +12,23 @@
       src:
         url("fonts/MaterialIconsTwoTone_gid1_empty.woff2") format("woff2");
     }
+    @font-face {
+      font-family: "Material Icons Two Tone Rebuilt";
+      src:
+        url("fonts/MaterialIconsTwoTone_rebuilt.woff2") format("woff2");
+    }
   </style>
 </head>
 <body>
 
   <p>Current font: glyph at index 1 is "360"</p>
-  <p style="font-family: 'Material Icons Two Tone Current'">alarm_on 360</p>
+  <p style="font-family: 'Material Icons Two Tone Current'">access_alarm 360</p>
 
   <p>Modified font: glyph at index 1 is empty</p>
-  <p style="font-family: 'Material Icons Two Tone GID1 Empty'">alarm_on 360</p>
+  <p style="font-family: 'Material Icons Two Tone GID1 Empty'">access_alarm 360</p>
+
+  <p>Font rebuilt from source: glyph at index 1 is empty</p>
+  <p style="font-family: 'Material Icons Two Tone Rebuilt'">access_alarm 360</p>
 
 </body>
 </html>
